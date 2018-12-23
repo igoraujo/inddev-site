@@ -31,7 +31,7 @@
 	<div class="container-master">
 
 		<!-- Menu -->
-		<div>
+		<!-- <div>
 			<nav id="menu">
 				<ul id="nav">
 					<li class="toggle">
@@ -45,7 +45,7 @@
 					<li><a href="#contato">CONTATO</a></li>
 				</ul>
 			</nav>
-		</div>
+		</div> -->
 		<!-- Header -->
 		<div id="header">
 			<!-- <span class="logo icon fa-paper-plane-o"></span> -->
