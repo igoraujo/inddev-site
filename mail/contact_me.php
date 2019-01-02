@@ -21,10 +21,10 @@ $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
-$to = 'indi.devbr@outloook.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'indi.devbr@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Contato via site de:  $name";
 $email_body = "<div>Mensagem de contato do http://indidev.com.br/ recebida.</div>"."<div><br><b><u>Detalhes</u>:</b></div><div><b>Nome:&nbsp;&nbsp;</b>".$name."</div><div><b>E-mail:&nbsp;&nbsp;</b>".$email_address."</div><div><b>Mensagem:</b></div><div><code>".$message."</code></div>";
-$headers = "From: indi.devbr@outloook.com\n";
+$headers = "From: indi.devbr@gmail.com\n";
 $headers .= "Reply-To: $email_address\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
