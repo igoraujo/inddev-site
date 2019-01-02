@@ -259,7 +259,7 @@
 						<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
 							orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
 				
-				<form method="post" action="sendmail.php">
+				<form method="post" action="mail/contact_me.php">
 					<div class="row">
 					<div class="col-6 col-12-mobilep">
 						<input type="text" name="name" placeholder="Nome" />
